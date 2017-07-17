@@ -1,0 +1,51 @@
+{
+  "name": "npz",
+  "version": "1.0.0",
+  "description": "Run your npm scripts with ease",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version",
+    "test": "NODE_ENV=test nyc --reporter=html --reporter=text mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/israelroldan/npz.git"
+  },
+  "keywords": [
+    "npm",
+    "scripts",
+    "cli",
+    "npm-scripts"
+  ],
+  "author": "Israel Roldan (github@isro.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/israelroldan/npz/issues"
+  },
+  "homepage": "https://github.com/israelroldan/npz#readme",
+  "devDependencies": {
+    "assertly": "^1.0.2",
+    "commitizen": "^2.9.6",
+    "cz-keep-a-changelog": "^1.0.1",
+    "mocha": "^3.4.2",
+    "nyc": "^11.0.3",
+    "sinon": "^2.3.8",
+    "sinon-mocha": "0.0.3",
+    "standard-version": "^4.2.0",
+    "strip-ansi": "^4.0.0",
+    "tmp": "0.0.31"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-keep-a-changelog"
+    }
+  },
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "loog": "^1.5.1",
+    "phylo": "^1.0.0-beta.7",
+    "switchit": "^1.0.7"
+  }
+}
