@@ -31,11 +31,11 @@
     "cz-keep-a-changelog": "^1.0.1",
     "mocha": "^3.4.2",
     "nyc": "^11.0.3",
-    "sinon": "^2.3.8",
+    "sinon": "^3.2.0",
     "sinon-mocha": "0.0.3",
     "standard-version": "^4.2.0",
     "strip-ansi": "^4.0.0",
-    "tmp": "0.0.31"
+    "tmp": "0.0.33"
   },
   "config": {
     "commitizen": {
